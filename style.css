@@ -1,0 +1,42 @@
+
+
+.para1{
+    float: right;
+    width: 700px;
+    padding: 1px 15px 10px 15px;
+    margin-bottom: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.img1 {
+    float: left;
+    padding: 15px;
+}
+
+
+.para2{
+    float: right;
+    width: 700px;
+    padding: 1px 5px 20px 5px;
+    margin-bottom: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.img2{
+    float: left;
+    padding: 15px;
+}
+
+td {
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+  }

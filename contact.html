@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: hsl(308, 92%, 46%);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+  
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+
+
+
+</style>
+</head>
+
+<body style="background-color: #df9fbf">
+
+  <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="about.html">Highlights</a>
+    <a href="activities.html">Attractions</a>
+    <a href="https://www.srilanka.travel/book-your-trip">Plan Your Trip</a>
+    <a href="contact.html">Contact</a>
+    
+    <div class="search-container">
+      <form action="/action_page.php">
+      <input type="text" placeholder= "search." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+    </div>
+
+<h2 align= "center">Contact Us</h2>
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Email">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="Email" Email="Email" placeholder="Your Email..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Subject">Subject</label>
+      </div>
+      <div class="col-75">
+       <input type="text" id="Subject" Subject="Subject" placeholder="Your Subject..">  
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Your Massage">Your Massage</label>
+      </div>
+      <div class="col-75">
+        <textarea id="Your Massage" name="Your Massage" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="submit">
+    </div>
+  </form>
+</div>
+
+
+        <div id="main">
+          <div id="right">
+                  <center>
+            <h4 align="center"><b>Contact Details</b></h4><br/>
+            </center>
+            <center>
+            <table border="0" bgcolor="E0E0E0" align="right-side" width="500"  cellpadding="20" cellspacing="10">
+              
+              <tr align="Center">
+                <th scope="raw">Email</th>
+                <th scope="raw">:</th>
+                <td >xxxxxxx@gmail.com</td>                
+              </tr>             
+              <tr align="Center">
+                <th scope="raw">TP</th>
+                <th scope="raw">:</th>
+                <td >080-8800-8800</td>               
+              </tr>
+              <tr align="Center">
+                <th scope="raw">Address</th>
+                <th scope="raw">:</th>
+                <td >7 Tanaka Monzencho, Sakyo Ward, Kyoto, 606-8225</td>               
+              </tr>
+            </table></center>
+          <center>
+            <h4 align="center">7 Tanaka Monzencho, Sakyo Ward, Kyoto, 606-8225</h4><br/>
+            </center>
+              <center>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.045233504882!2d135.7772846146598!3d35.03059828035107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001085a14c55555%3A0x8e20623a4c19a949!2sKCG.EDU!5e0!3m2!1sen!2sjp!4v1595775740268!5m2!1sen!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><br><br><br><br><br><br><br><br><br><br>
+              </center>
+          </div>
+        </center>
+        <div class="footer" style="background-image: url(img/footer.PNG); position: fixed; left: 0; bottom:0;text-align: center; height: 80px; width: 100%; color: #ffd11a; max-width: 1380px;margin: 0 auto;padding: 10px;">
+ 
+ <center>
+ <div class="ftr";">
+ <a href="https://www.facebook.com/tourismsrilanka.gov.lk"><img src="img/fb.png" height="20px" width="20px"></a>
+ <a href="https://www.instagram.com/destination_srilanka/"><img src="img/insta.png" height="20px" width="20px"></a>
+ <a href="https://twitter.com/tourismlk"><img src="img/twiter.png" height="20px" width="20px"></a>
+ <a href="https://www.youtube.com/user/srilankatravelvideo?feature=mhee"><img src="img/you.jfif" height="20px" width="20px"></a>
+ <a href=""><img src="img/github.jpg" height="20px" width="20px"></a>
+</div>
+</center>
+<center>	<marquee><h5>Design & Developed by: <a href="mailto:bdilshan314@gmail.com"> Web Assignment Group Asia @copyright 2020 </a></h5></marquee></center>
+</div>
+
+</body>
+</html>
